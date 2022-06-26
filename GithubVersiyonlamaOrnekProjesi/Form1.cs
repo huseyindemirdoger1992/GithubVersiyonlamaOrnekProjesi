@@ -19,7 +19,7 @@ namespace GithubVersiyonlamaOrnekProjesi
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Versiyonlama Sistemi Çalışıyor","Durum",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            this.BackColor = Color.Green;
         }
     }
 }
